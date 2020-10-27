@@ -51,8 +51,9 @@ const Header = ({ data }) => {
             <h1 className="responsive-headline">I'm {data.name}.</h1>
             <h3>
               I'm a {data.location} based <span>{data.title}</span>,{" "}
-              <span>Designer</span> and <span>Thinker</span> with proven talent
-              for writing efficient code. Let's{" "}
+              <span>Designer</span> and <span>Gamer</span>. When I'm not in
+              front of an computer, you can find me either playing sports or
+              video games. Let's{" "}
               <a className="smoothscroll" href="#about">
                 begin scrolling{" "}
               </a>
