@@ -48,13 +48,13 @@ const Header = ({ data }) => {
         {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">Hi, I'm {data.name}!</h1>
+            <h1 className="responsive-headline">I'm {data.name}.</h1>
             <h3>
-              I'm a #LOCATION based <span>{data.role}</span>, <span>#ROLE</span>{" "}
-              and <span>#ROLE</span> creating awesome and effective visual
-              identities for companies of all sizes around the globe. Let's{" "}
+              I'm a {data.location} based <span>{data.title}</span>,{" "}
+              <span>Designer</span> and <span>Thinker</span> with proven talent
+              for writing efficient code. Let's{" "}
               <a className="smoothscroll" href="#about">
-                start scrolling
+                begin scrolling{" "}
               </a>
               and learn more{" "}
               <a className="smoothscroll" href="#about">
@@ -65,38 +65,23 @@ const Header = ({ data }) => {
             <hr />
             <ul className="social">
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/lawrencej96">
                   <i className="fa fa-facebook" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/JRonJS">
                   <i className="fa fa-twitter" />
                 </a>
               </li>
               <li>
-                <a href="#">
-                  <i className="fa fa-google-plus" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/lawrence-jackson96/">
                   <i className="fa fa-linkedin" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/ljack40/">
                   <i className="fa fa-instagram" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-dribbble" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-skype" />
                 </a>
               </li>
             </ul>
