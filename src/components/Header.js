@@ -48,7 +48,7 @@ const Header = ({ data }) => {
         {/* end #nav-wrap */}
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {data.name}.</h1>
+            <h1 className="responsive-headline">Hi, I'm {data.name}!</h1>
             <h3>
               I'm a #LOCATION based <span>{data.role}</span>, <span>#ROLE</span>{" "}
               and <span>#ROLE</span> creating awesome and effective visual
