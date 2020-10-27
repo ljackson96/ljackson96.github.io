@@ -6,43 +6,58 @@ export default function About() {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="images/profilepic.jpg" alt="" />
+            <img className="profile-pic" src="images/LJ2.jpg" alt="" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
             <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-              veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam.
+              I'm Lawrence, and as you might have already read, I'm a developer,
+              designer, and a traveler. This website was made to showcase all of
+              what I can do and plan to do. Don't judge my writing based on this
+              section though, this is by far my shoddiest work yet. I got into
+              development because computers have always fascinated me. string
+              hello = “hello”; creates a string of hello. CRAZY! I KNOW! But
+              seriously, just seeing code getting converted to things we use in
+              our everyday life, like Google or Snapchat, was no less than magic
+              to me and that's where my quest to invent began. I got into design
+              because I consider myself a pseudo-perfectionist, if that's even a
+              word? In other words, I hate to see things 'not look good'. So I
+              set out on a journey to make products that people use that 'look
+              great', and I'm forever on that path. As a former collegiate
+              athlete, traveling throughout the states during games was and will
+              forever be a giant flex. I loved being able to see the world for
+              another angle of sorts. It’s easy to lose sight of what you have,
+              being able to escape the world and relax is otherworldly. I vowed
+              after college to continue to travel and forever see what this
+              beautiful world has to offer. I created this website so I could
+              showcase all this and through this process, make it easier for you
+              to connect with me. If you like what you see, head over to the
+              contact section below and send me a text. I would love to hear
+              from you!
             </p>
             <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>Jonathan Doe</span>
+                  <span>Lawrence Jackson</span>
                   <br />
                   <span>
-                    1600 Amphitheatre Parkway
+                    {" "}
                     <br />
-                    Mountain View, CA 94043 US
+                    Austin, TX US
                   </span>
                   <br />
-                  <span>(123)456-7890</span>
+                  <span>(281)312-9599</span>
                   <br />
-                  <span>anyone@website.com</span>
+                  <span>ljackson96@outlook.com</span>
                 </p>
               </div>
               <div className="columns download">
                 <p>
-                  <a href="#" className="button">
+                  <a
+                    href="https://drive.google.com/file/d/1vkfhl7Lc9YOnbEzmWKG2zc_7v9zIOaBj/view?usp=sharing"
+                    className="button"
+                  >
                     <i className="fa fa-download" />
                     Download Resume
                   </a>
