@@ -137,7 +137,7 @@ export default function Portfolio() {
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
-                Branding, Web Development
+                App Development, Web Development
               </span>
             </div>
             <div className="link-box">
@@ -162,7 +162,7 @@ export default function Portfolio() {
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
-                Branding
+                App Development, Web Development
               </span>
             </div>
             <div className="link-box">
@@ -187,12 +187,12 @@ export default function Portfolio() {
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
-                Photography
+                App Development
               </span>
             </div>
             <div className="link-box">
               <a href="https://github.com/ljackson96/Covid-19-Tracker">
-                Details
+                Source Code
               </a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
@@ -212,11 +212,13 @@ export default function Portfolio() {
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
-                Branding, Webdesign
+                App Development, Webdesign
               </span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://github.com/ljackson96/Sweeteats-Frontend">
+                Source Code
+              </a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
