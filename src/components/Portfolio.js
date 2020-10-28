@@ -15,11 +15,11 @@ export default function Portfolio() {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-01" title>
-                    <img alt="" src="images/portfolio/coffee.jpg" />
+                    <img alt="" src="images/portfolio/i-software.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Coffee</h5>
-                        <p>Illustrration</p>
+                        <h5>I-Software Inc.</h5>
+                        <p>Web Development </p>
                       </div>
                     </div>
                     <div className="link-icon">
@@ -32,11 +32,11 @@ export default function Portfolio() {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt="" src="images/portfolio/console.jpg" />
+                    <img alt="" src="images/portfolio/daytripper.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Console</h5>
-                        <p>Web Development</p>
+                        <h5>Day Tripper</h5>
+                        <p>App Development</p>
                       </div>
                     </div>
                     <div className="link-icon">
@@ -49,11 +49,11 @@ export default function Portfolio() {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt="" src="images/portfolio/judah.jpg" />
+                    <img alt="" src="images/portfolio/meme.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Judah</h5>
-                        <p>Webdesign</p>
+                        <h5>Meme Generator</h5>
+                        <p>App Development</p>
                       </div>
                     </div>
                     <div className="link-icon">
@@ -66,11 +66,11 @@ export default function Portfolio() {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-04" title>
-                    <img alt="" src="images/portfolio/into-the-light.jpg" />
+                    <img alt="" src="images/portfolio/covid-19.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Into The Light</h5>
-                        <p>Photography</p>
+                        <h5>Covid-19 Tracker</h5>
+                        <p>App Development</p>
                       </div>
                     </div>
                     <div className="link-icon">
@@ -83,62 +83,11 @@ export default function Portfolio() {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-05" title>
-                    <img alt="" src="images/portfolio/farmerboy.jpg" />
+                    <img alt="" src="images/portfolio/sweeteats.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Farmer Boy</h5>
-                        <p>Branding</p>
-                      </div>
-                    </div>
-                    <div className="link-icon">
-                      <i className="icon-plus" />
-                    </div>
-                  </a>
-                </div>
-              </div>{" "}
-              {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-06" title>
-                    <img alt="" src="images/portfolio/girl.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Girl</h5>
-                        <p>Photography</p>
-                      </div>
-                    </div>
-                    <div className="link-icon">
-                      <i className="icon-plus" />
-                    </div>
-                  </a>
-                </div>
-              </div>{" "}
-              {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-07" title>
-                    <img alt="" src="images/portfolio/origami.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Origami</h5>
-                        <p>Illustrration</p>
-                      </div>
-                    </div>
-                    <div className="link-icon">
-                      <i className="icon-plus" />
-                    </div>
-                  </a>
-                </div>
-              </div>{" "}
-              {/* item end */}
-              <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-08" title>
-                    <img alt="" src="images/portfolio/retrocam.jpg" />
-                    <div className="overlay">
-                      <div className="portfolio-item-meta">
-                        <h5>Retrocam</h5>
-                        <p>Web Development</p>
+                        <h5>Sweet Eats</h5>
+                        <p>App Development</p>
                       </div>
                     </div>
                     <div className="link-icon">
@@ -157,23 +106,19 @@ export default function Portfolio() {
           <div id="modal-01" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
-              src="images/portfolio/modals/m-coffee.jpg"
+              src="images/portfolio/i-software.jpg"
               alt=""
             />
             <div className="description-box">
-              <h4>Coffee Cup</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
+              <h4>I-Software Inc.</h4>
+              <p>Business website created using Wordpress.</p>
               <span className="categories">
                 <i className="fa fa-tag" />
                 Branding, Webdesign
               </span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.i-softwareinc.com">Details</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
@@ -181,15 +126,14 @@ export default function Portfolio() {
           <div id="modal-02" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
-              src="images/portfolio/modals/m-console.jpg"
+              src="images/portfolio/daytripper.jpg"
               alt=""
             />
             <div className="description-box">
-              <h4>Console</h4>
+              <h4>Day Tripper</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+                Schedule your day in the surrounding Austin areas using
+                daytripper! Built using Ruby on Rails and Bootstrap.
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
@@ -197,7 +141,9 @@ export default function Portfolio() {
               </span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://pacific-hamlet-77863.herokuapp.com/welcome/index">
+                Live Demo
+              </a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
@@ -205,15 +151,14 @@ export default function Portfolio() {
           <div id="modal-03" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
-              src="images/portfolio/modals/m-judah.jpg"
+              src="images/portfolio/meme.jpg"
               alt=""
             />
             <div className="description-box">
-              <h4>Judah</h4>
+              <h4>Meme Generator</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+                Create your own hilarious meme using our generator. Created
+                using React.
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
@@ -221,7 +166,9 @@ export default function Portfolio() {
               </span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://github.com/ljackson96/meme-generator">
+                Source Code
+              </a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
@@ -229,15 +176,14 @@ export default function Portfolio() {
           <div id="modal-04" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
-              src="images/portfolio/modals/m-intothelight.jpg"
+              src="images/portfolio/covid-19.jpg"
               alt=""
             />
             <div className="description-box">
-              <h4>Into the Light</h4>
+              <h4>Covid-19 Tracker</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+                Track COVID-19 cases in your country using my tracker. Created
+                using React.
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
@@ -245,7 +191,9 @@ export default function Portfolio() {
               </span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="https://github.com/ljackson96/Covid-19-Tracker">
+                Details
+              </a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>
@@ -253,15 +201,14 @@ export default function Portfolio() {
           <div id="modal-05" className="popup-modal mfp-hide">
             <img
               className="scale-with-grid"
-              src="images/portfolio/modals/m-farmerboy.jpg"
+              src="images/portfolio/sweeteats.jpg"
               alt=""
             />
             <div className="description-box">
-              <h4>Farmer Boy</h4>
+              <h4>Sweet Eats</h4>
               <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
+                Instagram clone catered to deserts. Built using Vanilla JS and
+                Rails.
               </p>
               <span className="categories">
                 <i className="fa fa-tag" />
@@ -274,78 +221,6 @@ export default function Portfolio() {
             </div>
           </div>
           {/* modal-05 End */}
-          <div id="modal-06" className="popup-modal mfp-hide">
-            <img
-              className="scale-with-grid"
-              src="images/portfolio/modals/m-girl.jpg"
-              alt=""
-            />
-            <div className="description-box">
-              <h4>Girl</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <span className="categories">
-                <i className="fa fa-tag" />
-                Photography
-              </span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          {/* modal-06 End */}
-          <div id="modal-07" className="popup-modal mfp-hide">
-            <img
-              className="scale-with-grid"
-              src="images/portfolio/modals/m-origami.jpg"
-              alt=""
-            />
-            <div className="description-box">
-              <h4>Origami</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <span className="categories">
-                <i className="fa fa-tag" />
-                Branding, Illustration
-              </span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          {/* modal-07 End */}
-          <div id="modal-08" className="popup-modal mfp-hide">
-            <img
-              className="scale-with-grid"
-              src="images/portfolio/modals/m-retrocam.jpg"
-              alt=""
-            />
-            <div className="description-box">
-              <h4>Retrocam</h4>
-              <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean
-                sollicitudin, lorem quis bibendum auctor, nisi elit consequat
-                ipsum, nec sagittis sem nibh id elit.
-              </p>
-              <span className="categories">
-                <i className="fa fa-tag" />
-                Webdesign, Photography
-              </span>
-            </div>
-            <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
-              <a className="popup-modal-dismiss">Close</a>
-            </div>
-          </div>
-          {/* modal-01 End */}
         </div>{" "}
         {/* row End */}
       </section>
