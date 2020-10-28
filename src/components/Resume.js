@@ -15,40 +15,20 @@ export default function Resume() {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
+                <h3>University of Texas at San Antonio</h3>
                 <p className="info">
-                  Master in Graphic Design <span>•</span>{" "}
-                  <em className="date">April 2007</em>
+                  BBA, Management Sciences <span>•</span>{" "}
+                  <em className="date">December 2019</em>
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  Nullam dictum felis eu pede mollis pretium.
+                  Former collegiate athlete who served as key member of a
+                  defense that led Conference USA through seven statistical
+                  categories and ranked in the top 10 nationally in five. 3x
+                  Conference USA Commissioner’s Honor Roll member.
                 </p>
               </div>
             </div>{" "}
             {/* item end */}
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">
-                  B.A. Degree in Graphic Design <span>•</span>{" "}
-                  <em className="date">March 2003</em>
-                </p>
-                <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
-                </p>
-              </div>
-            </div>{" "}
             {/* item end */}
           </div>{" "}
           {/* main-col end */}
@@ -65,37 +45,32 @@ export default function Resume() {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Awesome Design Studio</h3>
+                <h3>Flatiron School</h3>
                 <p className="info">
-                  Senior UX Designer <span>•</span>{" "}
-                  <em className="date">March 2010 - Present</em>
+                  Software Engineering Student <span>•</span>{" "}
+                  <em className="date">March 2020 - July 2020</em>
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-                  eu, pretium quis, sem. Nulla consequat massa quis enim. Donec
-                  pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                  Nullam dictum felis eu pede mollis pretium.
+                  Coding bootcamp moved remote due to COVID-19. Over 525 hours
+                  of completed projects using the latest web technologies.
+                  Stacks include: Ruby (on Rails), JavaScript, React, Redux,
+                  GraphQL, SQL, Docker, etc.
                 </p>
               </div>
             </div>{" "}
             {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
+                <h3>Spurs Sports and Entertainment</h3>
                 <p className="info">
-                  UX Designer <span>•</span>{" "}
-                  <em className="date">March 2007 - February 2010</em>
+                  Event Assistant <span>•</span>{" "}
+                  <em className="date">December 2019 - March 2020</em>
                 </p>
                 <p>
-                  This is Photoshop's version of Lorem Ipsum. Proin gravida nibh
-                  vel velit auctor aliquet. Aenean sollicitudin, lorem quis
-                  bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
-                  sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a
-                  odio tincidunt auctor a ornare odio. Sed non mauris vitae erat
+                  Carry out the alignment of objectives with staff and
+                  management through regular meetings and discussions.
+                  Investigate, assess, and resolve customer complaints promptly
+                  in order to achieve full customer satisfaction.
                 </p>
               </div>
             </div>{" "}
