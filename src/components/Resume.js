@@ -4,36 +4,6 @@ export default function Resume() {
   return (
     <React.Fragment>
       <section id="resume">
-        {/* Education
-      ----------------------------------------------- */}
-        <div className="row education">
-          <div className="three columns header-col">
-            <h1>
-              <span>Education</span>
-            </h1>
-          </div>
-          <div className="nine columns main-col">
-            <div className="row item">
-              <div className="twelve columns">
-                <h3>University of Texas at San Antonio</h3>
-                <p className="info">
-                  BBA, Management Sciences <span>•</span>{" "}
-                  <em className="date">December 2019</em>
-                </p>
-                <p>
-                  Former collegiate athlete who served as key member of a
-                  defense that led Conference USA through seven statistical
-                  categories and ranked in the top 10 nationally in five. 3x
-                  Conference USA Commissioner’s Honor Roll member.
-                </p>
-              </div>
-            </div>{" "}
-            {/* item end */}
-            {/* item end */}
-          </div>{" "}
-          {/* main-col end */}
-        </div>{" "}
-        {/* End Education */}
         {/* Work
       ----------------------------------------------- */}
         <div className="row work">
@@ -129,6 +99,36 @@ export default function Resume() {
           {/* main-col end */}
         </div>{" "}
         {/* End skills */}
+        {/* Education
+      ----------------------------------------------- */}
+        <div className="row education">
+          <div className="three columns header-col">
+            <h1>
+              <span>Education</span>
+            </h1>
+          </div>
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>University of Texas at San Antonio</h3>
+                <p className="info">
+                  BBA, Management Sciences <span>•</span>{" "}
+                  <em className="date">December 2019</em>
+                </p>
+                <p>
+                  Former collegiate athlete who served as key member of a
+                  defense that led Conference USA through seven statistical
+                  categories and ranked in the top 10 nationally in five. 3x
+                  Conference USA Commissioner’s Honor Roll member.
+                </p>
+              </div>
+            </div>{" "}
+            {/* item end */}
+            {/* item end */}
+          </div>{" "}
+          {/* main-col end */}
+        </div>{" "}
+        {/* End Education */}
       </section>{" "}
       {/* Resume Section End*/}
     </React.Fragment>
