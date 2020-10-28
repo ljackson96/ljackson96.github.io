@@ -15,6 +15,21 @@ export default function Resume() {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
+                <h3>Freelance Web Developer</h3>
+                <p className="info">
+                  <span>•</span> <em className="date">March 2019 - Present</em>
+                </p>
+                <p>
+                  Developed and maintained website for clients. Which includes:
+                  writing code, reviewing existing software, making suggestions
+                  for improvement, testing products, writing user manuals, and
+                  making sure systems are running correctly
+                </p>
+              </div>
+            </div>{" "}
+            {/* item end */}
+            <div className="row item">
+              <div className="twelve columns">
                 <h3>Flatiron School</h3>
                 <p className="info">
                   Software Engineering Student <span>•</span>{" "}
