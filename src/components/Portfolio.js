@@ -114,7 +114,7 @@ export default function Portfolio() {
               <p>Business website created using Wordpress.</p>
               <span className="categories">
                 <i className="fa fa-tag" />
-                Branding, Webdesign
+                Webdesign
               </span>
             </div>
             <div className="link-box">

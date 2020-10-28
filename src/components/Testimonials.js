@@ -17,6 +17,16 @@ export default function Testimonials() {
                   <li>
                     <blockquote>
                       <p>
+                        Before software can be reusable it first has to be
+                        usable.
+                      </p>
+                      <cite>Ralph Johnson</cite>
+                    </blockquote>
+                  </li>{" "}
+                  {/* slide ends */}
+                  <li>
+                    <blockquote>
+                      <p>
                         Your work is going to fill a large part of your life,
                         and the only way to be truly satisfied is to do what you
                         believe is great work. And the only way to do great work
@@ -31,11 +41,8 @@ export default function Testimonials() {
                   <li>
                     <blockquote>
                       <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin
-                        gravida nibh vel velit auctor aliquet. Aenean
-                        sollicitudin, lorem quis bibendum auctor, nisi elit
-                        consequat ipsum, nec sagittis sem nibh id elit. Duis sed
-                        odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Don’t worry if it doesn’t work right. If everything did,
+                        you’d be out of a job.
                       </p>
                       <cite>Mr. Adobe</cite>
                     </blockquote>
