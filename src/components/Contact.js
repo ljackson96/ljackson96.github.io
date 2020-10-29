@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 export default function Contact() {
-  const { register, handleSumbit, watch, errors } = useForm();
+  const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
     <React.Fragment>
@@ -15,18 +15,22 @@ export default function Contact() {
           </div>
           <div className="ten columns">
             <p className="lead">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit.
+              Thank you for visting my site! Be sure to connect with me on
+              LinkedIn professionally, or Facebook, Instagram and/or Twitter for
+              a more personal look. If you want to get in touch about anything
+              (coding, careers, gaming, life, etc), fill out the form below and
+              I will get back to you very soon.
             </p>
           </div>
         </div>
         <div className="row">
           <div className="eight columns">
             {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              id="contactForm"
+              name="contactForm"
+            >
               <fieldset>
                 <div>
                   <label htmlFor="contactName">
@@ -38,6 +42,7 @@ export default function Contact() {
                     size={35}
                     id="contactName"
                     name="contactName"
+                    ref={register}
                   />
                 </div>
                 <div>
@@ -50,6 +55,7 @@ export default function Contact() {
                     size={35}
                     id="contactEmail"
                     name="contactEmail"
+                    ref={register}
                   />
                 </div>
                 <div>
@@ -60,6 +66,7 @@ export default function Contact() {
                     size={35}
                     id="contactSubject"
                     name="contactSubject"
+                    ref={register}
                   />
                 </div>
                 <div>
@@ -72,10 +79,11 @@ export default function Contact() {
                     id="contactMessage"
                     name="contactMessage"
                     defaultValue={""}
+                    ref={register({ required: true })}
                   />
                 </div>
                 <div>
-                  <button className="submit">Submit</button>
+                  <input type="submit" className="submit"></input>
                   <span id="image-loader">
                     <img alt="" src="images/loader.gif" />
                   </span>
