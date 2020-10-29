@@ -127,7 +127,9 @@ export default function Contact() {
                     Life is like a sandwich, no matter how you make it, the
                     bread always comes first.
                     <br />
-                    <a href="#">https://tinyurl.com/yyz9p8ud</a>
+                    <a href="https://tinyurl.com/yyz9p8ud">
+                      https://tinyurl.com/yyz9p8ud
+                    </a>
                   </span>
                   <b>
                     <a href="#">2 Days Ago</a>
@@ -137,7 +139,9 @@ export default function Contact() {
                   <span>
                     Enjoy this life while you are here!
                     <br />
-                    <a href="#">https://tinyurl.com/yyz9p8ud</a>
+                    <a href="https://tinyurl.com/yyz9p8ud">
+                      https://tinyurl.com/yyz9p8ud
+                    </a>
                   </span>
                   <b>
                     <a href="#">3 Days Ago</a>
