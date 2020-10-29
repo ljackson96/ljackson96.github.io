@@ -1,6 +1,9 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 export default function Contact() {
+  const { register, handleSumbit, watch, errors } = useForm();
+  const onSubmit = (data) => console.log(data);
   return (
     <React.Fragment>
       <section id="contact">
@@ -93,12 +96,12 @@ export default function Contact() {
             <div className="widget widget_contact">
               <h4>Address and Phone</h4>
               <p className="address">
-                Jonathan Doe
+                Lawrence Jackson
                 <br />
-                1600 Amphitheatre Parkway <br />
-                Mountain View, CA 94043 US
+                172 Hollis Ln <br />
+                Kyle, TX 78640 US
                 <br />
-                <span>(123) 456-7890</span>
+                <span>(281) 312-9599</span>
               </p>
             </div>
             <div className="widget widget_tweets">

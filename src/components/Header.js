@@ -32,11 +32,11 @@ const Header = ({ data }) => {
                 Works
               </a>
             </li>
-            {/* <li>
+            <li>
               <a className="smoothscroll" href="#testimonials">
-                Testimonials
+                Inspiration
               </a>
-            </li> */}
+            </li>
             <li>
               <a className="smoothscroll" href="#contact">
                 Contact
