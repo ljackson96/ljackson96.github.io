@@ -3,7 +3,10 @@ import { useForm } from "react-hook-form";
 
 export default function Contact() {
   const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data, e) => {
+    e.preventDefault();
+    console.log(data);
+  };
   return (
     <React.Fragment>
       <section id="contact">
@@ -27,6 +30,7 @@ export default function Contact() {
           <div className="eight columns">
             {/* form */}
             <form
+              action="post"
               onSubmit={handleSubmit(onSubmit)}
               id="contactForm"
               name="contactForm"
@@ -38,11 +42,11 @@ export default function Contact() {
                   </label>
                   <input
                     type="text"
-                    defaultValue
+                    defaultValue=""
                     size={35}
                     id="contactName"
                     name="contactName"
-                    ref={register}
+                    ref={register({ required: true })}
                   />
                 </div>
                 <div>
@@ -51,18 +55,18 @@ export default function Contact() {
                   </label>
                   <input
                     type="text"
-                    defaultValue
+                    defaultValue=""
                     size={35}
                     id="contactEmail"
                     name="contactEmail"
-                    ref={register}
+                    ref={register({ required: true })}
                   />
                 </div>
                 <div>
                   <label htmlFor="contactSubject">Subject</label>
                   <input
                     type="text"
-                    defaultValue
+                    defaultValue=""
                     size={35}
                     id="contactSubject"
                     name="contactSubject"

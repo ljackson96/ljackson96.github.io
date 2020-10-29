@@ -6,7 +6,7 @@ export default function Portfolio() {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check Out Some of My Work Below.</h1>
             {/* portfolio-wrapper */}
             <div
               id="portfolio-wrapper"
