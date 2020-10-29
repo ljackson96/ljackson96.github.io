@@ -47,7 +47,7 @@ export default function About() {
                     Austin, TX US
                   </span>
                   <br />
-                  <span>(281)312-9599</span>
+                  <span>(281) 312-9599</span>
                   <br />
                   <span>ljackson96@outlook.com</span>
                 </p>

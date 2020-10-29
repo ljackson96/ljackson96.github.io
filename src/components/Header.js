@@ -76,7 +76,7 @@ const Header = ({ data }) => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/JRonJS">
+                <a href="https://twitter.com/ljack40">
                   <i className="fa fa-twitter" />
                 </a>
               </li>
