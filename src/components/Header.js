@@ -29,7 +29,7 @@ const Header = ({ data }) => {
             </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Portfolio
               </a>
             </li>
             <li>
