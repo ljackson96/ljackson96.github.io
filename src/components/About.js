@@ -6,7 +6,7 @@ export default function About() {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="images/LJ2.jpg" alt="" />
+            <img className="profile-pic" src="/public/images/LJ2.JPG" alt="" />
           </div>
           <div className="nine columns main-col">
             <h2>About Me</h2>
