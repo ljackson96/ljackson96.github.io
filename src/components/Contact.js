@@ -4,11 +4,11 @@ import firebase from "firebase";
 
 export default function Contact() {
   var database = firebase.database();
-  var ref = database.ref("name");
+  var ref = database.ref("info");
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data, e) => {
     e.preventDefault();
-    alert("Your message was sent, thank you!");
+    alert("Your message was received, thank you!");
     ref.push(data);
   };
   return (
@@ -127,7 +127,7 @@ export default function Contact() {
                     Life is like a sandwich, no matter how you make it, the
                     bread always comes first.
                     <br />
-                    <a href="#">https://cutt.ly/mgYIP0z</a>
+                    <a href="#">https://tinyurl.com/yyz9p8ud</a>
                   </span>
                   <b>
                     <a href="#">2 Days Ago</a>
@@ -137,7 +137,7 @@ export default function Contact() {
                   <span>
                     Enjoy this life while you are here!
                     <br />
-                    <a href="#">https://cutt.ly/lgYID92</a>
+                    <a href="#">https://tinyurl.com/yyz9p8ud</a>
                   </span>
                   <b>
                     <a href="#">3 Days Ago</a>
