@@ -8,7 +8,7 @@ export default function Testimonials() {
           <div className="row">
             <div className="two columns header-col">
               <h1>
-                <span>Client Testimonials</span>
+                <span>Some daily positivity</span>
               </h1>
             </div>
             <div className="ten columns flex-container">

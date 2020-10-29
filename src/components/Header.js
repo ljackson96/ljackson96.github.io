@@ -66,6 +66,11 @@ const Header = ({ data }) => {
             <hr />
             <ul className="social">
               <li>
+                <a href="https://www.github.com/ljackson96">
+                  <i className="fa fa-github" />
+                </a>
+              </li>
+              <li>
                 <a href="https://www.facebook.com/lawrencej96">
                   <i className="fa fa-facebook" />
                 </a>

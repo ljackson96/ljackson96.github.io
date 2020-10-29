@@ -1,11 +1,15 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import firebase from "firebase";
 
 export default function Contact() {
+  var database = firebase.database();
+  var ref = database.ref("name");
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data, e) => {
     e.preventDefault();
-    console.log(data);
+    alert("Your message was sent, thank you!");
+    ref.push(data);
   };
   return (
     <React.Fragment>
@@ -30,7 +34,6 @@ export default function Contact() {
           <div className="eight columns">
             {/* form */}
             <form
-              action="post"
               onSubmit={handleSubmit(onSubmit)}
               id="contactForm"
               name="contactForm"

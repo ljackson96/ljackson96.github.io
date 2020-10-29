@@ -8,6 +8,11 @@ export default function Footer() {
           <div className="twelve columns">
             <ul className="social-links">
               <li>
+                <a href="https://www.github.com/ljackson96">
+                  <i className="fa fa-github" />
+                </a>
+              </li>
+              <li>
                 <a href="https://www.facebook.com/lawrencej96">
                   <i className="fa fa-facebook" />
                 </a>
