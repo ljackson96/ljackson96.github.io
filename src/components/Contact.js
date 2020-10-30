@@ -113,8 +113,7 @@ export default function Contact() {
               <p className="address">
                 Lawrence Jackson
                 <br />
-                172 Hollis Ln <br />
-                Kyle, TX 78640 US
+                Austin, TX US
                 <br />
                 <span>(281) 312-9599</span>
               </p>
