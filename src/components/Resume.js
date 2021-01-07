@@ -108,27 +108,27 @@ export default function Resume() {
               <ul className="skills">
                 <li>
                   <span className="bar-expand photoshop" />
-                  <em>JavaScript</em>
-                </li>
-                <li>
-                  <span className="bar-expand illustrator" />
                   <em>Ruby</em>
                 </li>
                 <li>
-                  <span className="bar-expand wordpress" />
-                  <em>Python</em>
-                </li>
-                <li>
-                  <span className="bar-expand jquery" />
-                  <em>ReactJS</em>
-                </li>
-                <li>
-                  <span className="bar-expand html5" />
+                  <span className="bar-expand illustrator" />
                   <em>SQL</em>
                 </li>
                 <li>
+                  <span className="bar-expand wordpress" />
+                  <em>Java</em>
+                </li>
+                <li>
+                  <span className="bar-expand jquery" />
+                  <em>Git</em>
+                </li>
+                <li>
+                  <span className="bar-expand html5" />
+                  <em>Python</em>
+                </li>
+                <li>
                   <span className="bar-expand css" />
-                  <em>Rails</em>
+                  <em>JavaScript</em>
                 </li>
               </ul>
             </div>
